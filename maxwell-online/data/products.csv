@@ -1,0 +1,24 @@
+id,name,category,subcategory,price,icon,images,description,stock,featured
+1001,Cordless Drill 18V,Tools,Power Tools,899,wrench,,18V cordless drill with 2 batteries and fast charger.,12,yes
+1002,Claw Hammer 450g,Tools,Hand Tools,129,wrench,,"Fibreglass handle claw hammer, shock-absorbing grip.",34,no
+1003,Socket Set 46pc,Tools,Hand Tools,459,wrench,,Chrome vanadium socket set with ratchet and case.,18,yes
+1004,Angle Grinder 115mm,Tools,Power Tools,649,wrench,,750W angle grinder with spare disc included.,9,no
+1005,Tape Measure 8m,Tools,Hand Tools,89,wrench,,Heavy duty 8m tape measure with magnetic hook.,50,no
+2001,Cable Ties 300mm (100pk),Hardware,Fasteners,45,plug,,"UV-resistant nylon cable ties, pack of 100.",60,no
+2002,Wood Screws Assorted Box,Hardware,Fasteners,159,plug,,"Assorted wood screw box, 300 pieces.",25,yes
+2003,Door Hinges 100mm (Pair),Hardware,Fittings,79,plug,,"Steel door hinges, satin finish, pair.",40,no
+2004,Padlock 50mm Brass,Hardware,Security,109,plug,,"Brass padlock with 2 keys, weatherproof.",30,yes
+2005,Extension Cord 10m,Hardware,Electrical,199,plug,,"10m heavy duty extension cord, 4-way socket.",22,no
+3001,Car Battery 12V 60Ah,Automotive,Batteries,1699,car,,"12V 60Ah maintenance-free car battery, 2yr warranty.",8,yes
+3002,Engine Oil 5W-30 5L,Automotive,Fluids,449,car,,"Fully synthetic engine oil, 5L container.",26,yes
+3003,Wiper Blades Pair,Automotive,Accessories,169,car,,"Universal fit wiper blade pair, 20-22 inch.",35,no
+3004,Car Jack 2 Ton,Automotive,Tools,599,car,,"Hydraulic scissor jack, 2 ton capacity.",14,no
+3005,Tow Rope 3.5 Ton,Automotive,Accessories,229,car,,Heavy duty tow rope with reinforced hooks.,20,no
+4001,LED Ceiling Light 18W,Home,Lighting,239,home,,"18W LED ceiling light, cool white, energy efficient.",28,yes
+4002,Paint Roller Set,Home,Paint,99,home,,9-piece paint roller and tray set.,42,no
+4003,Door Lock Set,Home,Fittings,349,home,,"Complete door lock set with keys, satin nickel.",16,no
+4004,Garden Hose 20m,Home,Outdoor,299,home,,20m reinforced garden hose with spray nozzle.,19,no
+5001,Work Gloves (Pair),General,Safety,59,box,,"Cut-resistant work gloves, one size fits most.",70,no
+5002,Safety Goggles,General,Safety,79,box,,"Anti-fog safety goggles, adjustable strap.",45,no
+5003,Storage Box 50L,General,Storage,229,box,,Heavy duty 50L storage box with lid.,24,no
+5004,Torch LED Rechargeable,General,Electrical,159,box,,"USB rechargeable LED torch, 500 lumens.",33,yes

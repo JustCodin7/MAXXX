@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Admin | MAXWELL ONLINE</title>
+<meta name="robots" content="noindex, nofollow">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/admin.css">
+</head>
+<body class="admin-body">
+
+<!-- LOGIN VIEW -->
+<div class="admin-login-wrap" id="login-view">
+  <form class="admin-login-card" id="login-form">
+    <div class="logo" style="margin-bottom:6px;">MAXWELL<span class="dot">.</span>ONLINE</div>
+    <p class="admin-login-sub">Admin sign in</p>
+    <label>Email</label>
+    <input type="email" id="login-email" required autocomplete="username">
+    <label>Password</label>
+    <input type="password" id="login-password" required autocomplete="current-password">
+    <p class="admin-login-error" id="login-error"></p>
+    <button type="submit" class="btn btn-primary" style="justify-content:center;">Sign in</button>
+  </form>
+</div>
+
+<!-- DASHBOARD VIEW -->
+<div id="dashboard-view" style="display:none;">
+  <header class="admin-header">
+    <div class="wrap admin-header-inner">
+      <span class="logo">MAXWELL<span class="dot">.</span>ONLINE <small>ADMIN</small></span>
+      <button id="logout-btn" class="btn btn-ghost" style="border-color:var(--charcoal); color:var(--charcoal);">Sign out</button>
+    </div>
+  </header>
+
+  <div class="wrap admin-content">
+    <section class="admin-panel">
+      <h2 id="form-title">Add a product</h2>
+      <form id="product-form" class="admin-form">
+        <input type="hidden" id="existing-images" value="">
+        <div class="admin-form-grid">
+          <div class="admin-field">
+            <label>Product name</label>
+            <input type="text" id="f-name" required>
+          </div>
+          <div class="admin-field">
+            <label>Category</label>
+            <select id="f-category" required>
+              <option value="Tools">Tools</option>
+              <option value="Hardware">Hardware</option>
+              <option value="Automotive">Automotive</option>
+              <option value="Home">Home</option>
+              <option value="General">General</option>
+            </select>
+          </div>
+          <div class="admin-field">
+            <label>Subcategory</label>
+            <input type="text" id="f-subcategory" placeholder="e.g. Power Tools">
+          </div>
+          <div class="admin-field">
+            <label>Price (R)</label>
+            <input type="number" id="f-price" step="0.01" min="0" required>
+          </div>
+          <div class="admin-field">
+            <label>Stock quantity</label>
+            <input type="number" id="f-stock" min="0" required>
+          </div>
+          <div class="admin-field">
+            <label>Icon (fallback if no photo)</label>
+            <select id="f-icon">
+              <option value="wrench">Wrench (Tools)</option>
+              <option value="plug">Plug (Hardware)</option>
+              <option value="car">Car (Automotive)</option>
+              <option value="home">Home</option>
+              <option value="box">Box (General)</option>
+            </select>
+          </div>
+          <div class="admin-field admin-field-wide">
+            <label>Description</label>
+            <textarea id="f-description" rows="3"></textarea>
+          </div>
+          <div class="admin-field admin-field-wide">
+            <label>Add photos (you can select several)</label>
+            <input type="file" id="f-images" accept="image/*" multiple>
+            <p class="admin-hint">New photos are added to any existing ones — editing a product won't remove old photos automatically.</p>
+          </div>
+          <div class="admin-field">
+            <label class="admin-checkbox-label">
+              <input type="checkbox" id="f-featured">
+              Feature on homepage
+            </label>
+          </div>
+        </div>
+        <div class="admin-form-actions">
+          <button type="submit" class="btn btn-primary" id="save-btn">Save product</button>
+          <button type="button" class="btn btn-ghost" id="cancel-edit-btn" style="display:none; border-color:var(--charcoal); color:var(--charcoal);">Cancel edit</button>
+        </div>
+      </form>
+    </section>
+
+    <section class="admin-panel">
+      <h2>Your products</h2>
+      <table class="admin-table">
+        <thead>
+          <tr><th>Photo</th><th>Name</th><th>Category</th><th>Price</th><th>Stock</th><th>Actions</th></tr>
+        </thead>
+        <tbody id="admin-product-list">
+          <tr><td colspan="6" class="admin-loading">Loading…</td></tr>
+        </tbody>
+      </table>
+    </section>
+  </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+<script src="js/config.js"></script>
+<script src="js/admin.js"></script>
+</body>
+</html>
