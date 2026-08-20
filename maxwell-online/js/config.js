@@ -17,8 +17,8 @@ const SITE_CONFIG = {
     anonKey: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Imx6Y3Fud21kYm1wcnllbHl2Ymx0Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODcxMjU5MTgsImV4cCI6MjEwMjcwMTkxOH0.KzyIlbyIpJ7HGTRRYzVyqZpfpIbPmELc7tyHE0y-oSQ"
   },
 
-  whatsappNumber: "27 69 942 7178", // replace with real number, no + or spaces
-  phone: "+27 69 942 7178",
+  whatsappNumber: "27699427178", // replace with real number, no + or spaces
+  phone: "+27699427178",
   email: "Manex1919@gmail.com",
   address: "Cape Town, South Africa",
   facebook: "#",
