@@ -17,9 +17,9 @@ const SITE_CONFIG = {
     anonKey: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Imx6Y3Fud21kYm1wcnllbHl2Ymx0Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODcxMjU5MTgsImV4cCI6MjEwMjcwMTkxOH0.KzyIlbyIpJ7HGTRRYzVyqZpfpIbPmELc7tyHE0y-oSQ"
   },
 
-  whatsappNumber: "27000000000", // replace with real number, no + or spaces
-  phone: "+27 00 000 0000",
-  email: "info@maxwellonline.co.za",
+  whatsappNumber: "27 69 942 7178", // replace with real number, no + or spaces
+  phone: "+27 69 942 7178",
+  email: "Manex1919@gmail.com",
   address: "Cape Town, South Africa",
   facebook: "#",
   instagram: "#",
@@ -29,6 +29,7 @@ const SITE_CONFIG = {
     { name: "Hardware", aisle: "02", icon: "plug", blurb: "Fasteners & fittings" },
     { name: "Automotive", aisle: "03", icon: "car", blurb: "Parts & accessories" },
     { name: "Home", aisle: "04", icon: "home", blurb: "Around the house" },
-    { name: "General", aisle: "05", icon: "box", blurb: "Safety & everyday" }
+    { name: "General", aisle: "05", icon: "box", blurb: "Safety & everyday" },
+    { name: "Gym", aisle: "06", icon: "dumbbell", blurb: "Fitness & training gear" }
   ]
 };
